@@ -14,15 +14,16 @@ zef install Distribution::Builder::Cmake
 USAGE
 =========
 Assuming your Raku project has a folder in it called `my-cmake-project`, and your exported lib is `my-lib`. 
-In your `"build"` section of `META6.json` you'll add the following:
-```json
-{ ...
+In your `META6.json` you'll add the following:
+```
+{ 
+    ...
     "builder": "Distribution::Builder::Cmake",
     "build": {
         "lib": "my-lib",
         "src-dir": "my-cmake-project"
     }
-  ...
+    ...
 }
 ```
 
