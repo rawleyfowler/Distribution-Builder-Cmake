@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "Rawley Fowler"
+  ],
+  "build-depends": [  ],
+  "depends": [
+  ],
+  "description": "A zef builder to aid in binding CMake projects to Raku",
+  "license": "Artistic-2.0",
+  "name": "Distribution::Builder::Cmake",
+  "perl": "6.d",
+  "provides": {
+    "Distribution::Builder::Cmake": "lib/Distribution/Builder/Cmake.rakumod"
+  },
+  "resources": [ ],
+  "source-url": "",
+  "tags": [ ],
+  "test-depends": [ ],
+  "version": "0.0.1"
+}

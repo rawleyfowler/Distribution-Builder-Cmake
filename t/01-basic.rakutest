@@ -1,0 +1,6 @@
+use Test;
+use Distribution::Builder::Cmake;
+
+pass "replace me";
+
+done-testing;
