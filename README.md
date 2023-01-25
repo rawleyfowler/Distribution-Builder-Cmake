@@ -1,6 +1,6 @@
 Distribution::Builder::Cmake
 ====
-A dead simple way to run FFI with a language that supports CMake (C/C++)
+A dead simple way to build a CMake project for FFI with Raku.
 
 Synopsis
 ========
