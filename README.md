@@ -2,16 +2,16 @@ Distribution::Builder::Cmake
 ====
 A dead simple way to run FFI with a language that supports CMake (C/C++)
 
-SYNOPSIS
+Synopsis
 ========
 
-INSTALLATION
+Installation
 =========
 ```shell
 zef install Distribution::Builder::Cmake
 ```
 
-USAGE
+Usage
 =========
 Assuming your Raku project has a folder in it called `my-cmake-project`, and your exported lib is `my-lib`. 
 In your `META6.json` you'll add the following:
@@ -45,7 +45,7 @@ You can see an example of this in action in [this repo](https://github.com/rawle
 
 (Obviously, you'll need Make and CMake installed)
 
-AUTHOR
+Author
 ======
 
     <Rawley Fowler>
@@ -56,4 +56,3 @@ COPYRIGHT AND LICENSE
 Copyright 2023 
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
-
