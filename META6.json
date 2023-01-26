@@ -6,6 +6,8 @@
   "build-depends": [
   ],
   "depends": [
+	  "cmake:from<bin>",
+	  "make:from<bin>"
   ],
   "description": "A zef builder to aid in binding CMake projects to Raku",
   "license": "Artistic-2.0",
