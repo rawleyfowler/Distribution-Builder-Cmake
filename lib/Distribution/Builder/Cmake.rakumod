@@ -19,6 +19,9 @@ method build(IO() $work-dir = $*CWD) {
 
 	my $library = "lib{ %meta<lib> }.so"; # If your cmake is setup properly, then it should start with 'lib'
 	unlink "$work-dir/$library" if "$work-dir/$library".IO.e;
-	die "Failed to install lib: $library" unless shell "ln -sf $build-dir/$library $work-dir/$library";
+	my $install = %!meta<install> // '';
+	$install ~= '/';
+	my $install-location = "$work-dir/$install$library";
+	die "Failed to install lib: $library" unless shell "ln -sf $build-dir/$library $install-location";
 	True;
 }

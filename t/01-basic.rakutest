@@ -1,6 +1,18 @@
 use Test;
 use Distribution::Builder::Cmake;
 
-pass "replace me";
+plan 2;
+
+my %build = 
+	lib => 'test',
+	src-dir => 'cc',
+	install => 'resources/libraries';
+
+my %meta = Map.new: (:%build);
+
+my $builder = Distribution::Builder::Cmake.new(:%meta);
+
+lives-ok { $builder.build("$*CWD/t") };
+ok 't/libtest.so'.IO.e, 'Did compile properly?';
 
 done-testing;

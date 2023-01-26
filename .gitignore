@@ -1,3 +1,4 @@
 .precomp/
 /Distribution-Builder-Cmake-*
 build/
+*.so
