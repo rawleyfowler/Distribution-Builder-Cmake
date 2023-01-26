@@ -19,6 +19,8 @@ In your `META6.json` you'll add the following:
 ```
 { 
     ...
+    "build-depends": [ "Distribution::Builder::Cmake" ],
+    ...
     "builder": "Distribution::Builder::Cmake",
     "build": {
         "lib": "my-lib",
