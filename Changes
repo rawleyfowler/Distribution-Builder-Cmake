@@ -1,4 +1,6 @@
 Revision history for Distribution-Builder-Cmake
 
 {{$NEXT}}
+
+0.0.3  2023-01-26T15:15:10-06:00
     - Initial version
