@@ -13,7 +13,7 @@ zef install Distribution::Builder::Cmake
 
 Usage
 =========
-Assuming your Raku project has keeps its CMake project in a folder called `my-cmake-project`, and your exported lib is `my-lib`. 
+Assuming your Raku project keeps its CMake project in a folder called `my-cmake-project`, and your exported lib is `my-lib`. 
 Note, the final `.so` file will be `libmy-lib.so`.
 In your `META6.json` you'll add the following:
 ```
