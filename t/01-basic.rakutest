@@ -3,7 +3,7 @@ use Distribution::Builder::Cmake;
 
 plan 2;
 
-my %build = 
+my %build =
 	lib => 'test',
 	src-dir => 'cc',
 	install => 'resources/libraries';
@@ -13,6 +13,6 @@ my %meta = Map.new: (:%build);
 my $builder = Distribution::Builder::Cmake.new(:%meta);
 
 lives-ok { $builder.build("$*CWD/t") };
-ok 't/libtest.so'.IO.e, 'Did compile properly?';
+ok 't/resources/libraries/libtest.so'.IO.e, 'Did compile properly?';
 
 done-testing;
