@@ -2,3 +2,4 @@
 /Distribution-Builder-Cmake-*
 build/
 *.so
+CMakeCache.txt
