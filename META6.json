@@ -19,7 +19,9 @@
   "resources": [
   ],
   "source-url": "https://github.com/rawleyfowler/Distribution-Builder-Cmake.git",
-  "tags": [
+	"tags": [
+		"C++",
+		"CMake"
   ],
   "test-depends": [
   ],
