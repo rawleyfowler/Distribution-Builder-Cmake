@@ -30,7 +30,7 @@ In your `META6.json` you'll add the following:
 }
 ```
 
-**Note**: You may also provide a `isntall` field to specify the directory to install the library. This defaults to: `resources/libraries/lib<your-lib>.so`
+**Note**: You may also provide a `install` field to specify the directory to install the library. This defaults to: `resources/libraries/lib<your-lib>.so`
 
 The typical CMake project will look like (assuming your lib is `my-lib`):
 ```cmake
