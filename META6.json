@@ -6,6 +6,7 @@
   "build-depends": [
   ],
   "depends": [
+      "g++:from<bin>",
 	  "cmake:from<bin>",
 	  "make:from<bin>"
   ],
@@ -25,5 +26,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.0.6"
+  "version": "0.0.8"
 }
